@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="zad_05.css">
+</head>
+<body>
+    <div class="content">
+        <div class="title">
+            <div>Title <span style="color: red;">*</span></div>
+            <input type="text">
+        </div>
+        <div class="date">
+            <div>Date</div>
+            <input type="date">
+            <div class="desc">Date-only description.</div>
+        </div>
+        <div class="rest">
+            <div>DATE/TIME</div>
+            <span><input type="date"><input type="time"></span>
+            <div class="desc">
+                Date and time description.
+            </div>
+        </div>
+        <div class="rest">
+            <div>DATE RANGE</div>
+            <div class="state">
+                <div>START DATE</div>
+            <span><input type="date"><input type="time"></span>
+            </div>
+            <div class="state">
+                <div>END DATE</div>
+            <span><input type="date"><input type="time"></span>
+            </div>
+            <div class="desc">Date range description.</div>
+        </div>
+        <div class="rest">
+            <div>DATE/TIME LIST</div>
+            <span>
+                <input list="browsers1" placeholder="Year">
+                <datalist id="browsers1">
+                    <option value="2002"></option>
+                    <option value="2001"></option>
+                    <option value="2000"></option>
+                </datalist>
+                <input list="browsers2" placeholder="Month">
+                <datalist id="browsers2">
+                    <option value="January"></option>
+                    <option value="February"></option>
+                    <option value="March"></option>
+                </datalist>
+                <input list="browsers3" placeholder="Day">
+                <datalist id="browsers3">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                </datalist>
+                <input type="hour" placeholder="Hour">
+                <input list="browsers4" placeholder="Minute">
+                <datalist id="browsers4">
+                    <option value="01"></option>
+                    <option value="02"></option>
+                    <option value="03"></option>
+                </datalist>
+            </span>
+            <div class="desc">Date/time list description.</div>
+        </div>
+    </div>
+</body>
+</html>

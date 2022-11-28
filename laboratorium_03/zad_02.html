@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="card-img-top"></div>
+    <div id="card-body1"></div>
+    <div id="card-body2"></div>
+    <div id="link"></div>
+
+    <script
+        src="https://unpkg.com/react@18/umd/react.development.js">
+    </script>
+    <script
+            src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
+    </script>
+    <script>
+        const data = {
+            image: "https://i.ytimg.com/vi/kHjzuqq3b44/maxresdefault.jpg",
+            cardTitle: "Bob Dylan",
+            cardDescription: "Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer/songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.",
+            button: {
+                url: "https://en.wikipedia.org/wiki/Bob_Dylan",
+                label: "Go to wikipedia"
+            }
+        };
+
+        const image = React.createElement("img", {src: data.image}, null)
+        ReactDOM.render(image, document.getElementById("card-img-top"))
+        
+        const title = React.createElement("h5", null, data.cardTitle)
+        ReactDOM.render(title, document.getElementById("card-body1"))
+        
+        const body = React.createElement("p", null, data.cardDescription)
+        ReactDOM.render(body, document.getElementById("card-body2"))
+        
+        const link = React.createElement("a", {hrew: data.button.url}, data.button.label)
+        ReactDOM.render(link, document.getElementById("link"))
+    </script>
+</body>
+</html>

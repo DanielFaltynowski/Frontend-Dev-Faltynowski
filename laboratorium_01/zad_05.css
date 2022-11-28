@@ -1,0 +1,35 @@
+.content {
+    width: 700px;
+    margin: 0 auto;
+}
+.title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.title > input {
+    width: 400px;
+}
+.date {
+    margin-bottom: 10px;
+}
+.rest {
+    margin-bottom: 10px;
+}
+.desc {
+    font-size: 9px;
+    padding: 3px;
+}
+.rest {
+    border: 1px solid gray;
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+}
+.state {
+    border: 1px solid gray;
+    background-color: rgb(229, 229, 229);
+    padding: 10px;
+    margin-top: 10px;
+}
+.rest > span > input {
+    width: 100px;
+}
