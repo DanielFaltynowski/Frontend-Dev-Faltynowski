@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "email": "a@gmail.com",
+      "password": "qwerty",
+      "name": "Daniel",
+      "lastname": "Faltynowski",
+      "birth": "17-06-2002",
+      "id": 1
+    },
+    {
+      "email": "b@gmail.com",
+      "password": "1!Qa",
+      "name": "Kamila",
+      "lastname": "Weller",
+      "birth": "2003-12-09",
+      "id": 2
+    },
+    {
+      "email": "c@gmail.com",
+      "password": "2@Ws",
+      "name": "Amadeusz",
+      "lastname": "Niotk",
+      "birth": "2003-12-17",
+      "id": 3
+    },
+    {
+      "email": "e@gmail.com",
+      "password": "3#Ed",
+      "name": "Hugo",
+      "lastname": "Lotka",
+      "birth": "1991-06-05",
+      "id": 4
+    }
+  ]
+}
