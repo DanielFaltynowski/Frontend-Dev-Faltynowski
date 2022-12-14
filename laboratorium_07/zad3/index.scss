@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.App {
+  margin: 10px auto;
+
+  form {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+
+    .box {
+      display: flex;
+      flex-direction: column;
+
+      .x {
+        display: flex;
+        flex-direction: column;
+        div {
+          display: flex;
+          flex-direction: row;
+        }
+      }
+    }
+
+    button {
+      width: 70px;
+      border-radius: 10px;
+      height: 30px;
+      background-color: #ffdada;
+      border: 1px solid red;
+      &:hover {
+        background-color: red;
+        color: white;
+      }
+      &:disabled {
+        background-color: lightgray;
+        color: gray;
+        border: 1px solid gray;
+      }
+    }
+  }
+  button:nth-child(2) {
+    width: 70px;
+    border-radius: 10px;
+    height: 30px;
+    background-color: #dae4ff;
+    border: 1px solid blue;
+    &:hover {
+      background-color: blue;
+      color: white;
+    }
+  }
+}
+
+
+.table {
+  display: flex;
+  margin: 25px 100px;
+  padding: 25px;
+  justify-content: center;
+  border-top: 1px solid lightgray;
+  &:first-child {
+    display: block;
+  }
+
+  .seq {
+    padding: 10px;
+    div {
+      padding: 10px;
+      border: 1px solid #c9c9c9;
+      &:first-child {
+        border-bottom: none;
+      }
+      .res {
+        border: none;
+      }
+    }
+  }
+}

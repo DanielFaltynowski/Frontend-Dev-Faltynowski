@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.App {
+  margin: 10px auto;
+}
+.App form {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+.App form .box {
+  display: flex;
+  flex-direction: column;
+}
+.App form .box .x {
+  display: flex;
+  flex-direction: column;
+}
+.App form .box .x div {
+  display: flex;
+  flex-direction: row;
+}
+.App form button {
+  width: 70px;
+  border-radius: 10px;
+  height: 30px;
+  background-color: #ffdada;
+  border: 1px solid red;
+}
+.App form button:hover {
+  background-color: red;
+  color: white;
+}
+.App form button:disabled {
+  background-color: lightgray;
+  color: gray;
+  border: 1px solid gray;
+}
+.App button:nth-child(2) {
+  width: 70px;
+  border-radius: 10px;
+  height: 30px;
+  background-color: #dae4ff;
+  border: 1px solid blue;
+}
+.App button:nth-child(2):hover {
+  background-color: blue;
+  color: white;
+}
+
+.table {
+  display: flex;
+  margin: 25px 100px;
+  padding: 25px;
+  justify-content: center;
+  border-top: 1px solid lightgray;
+}
+.table:first-child {
+  display: block;
+}
+.table .seq {
+  padding: 10px;
+}
+.table .seq div {
+  padding: 10px;
+  border: 1px solid #c9c9c9;
+}
+.table .seq div:first-child {
+  border-bottom: none;
+}
+.table .seq div .res {
+  border: none;
+}
+
+/*# sourceMappingURL=index.css.map */
